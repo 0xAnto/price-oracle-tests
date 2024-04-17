@@ -1,0 +1,12 @@
+[package]
+name = "SwitchboardFeed"
+version = "0.0.1"
+authors = []
+
+[addresses]
+feed = "0x4d08a47afdfda05c4b40b27c892cc4d667ff40f380e71af3fb9fd33dd68ae065"
+switchboard = "0xb91d3fef0eeb4e685dc85e739c7d3e2968784945be4424e92e2f86e2418bf271"
+
+
+[dependencies]
+Switchboard = { git = "https://github.com/switchboard-xyz/aptos-sdk.git", subdir = "move/switchboard/testnet", rev = "main" }
