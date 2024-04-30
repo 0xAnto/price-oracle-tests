@@ -1,0 +1,19 @@
+[package]
+name = "Pyth-Pricefeed-Test"
+version = "1.0.0"
+authors = []
+
+[addresses]
+anto="0xdb5da91097bd0b001b5a4fc4206bb6aa6d3a1d3e681020cc5918b5f87e981cc0"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "main"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies]
+Pyth = { git = "https://github.com/0xAnto/pyth-crosschain.git", subdir = "target_chains/aptos/contracts", rev = "main" }
+
+
+[dev-dependencies]
